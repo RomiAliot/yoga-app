@@ -1,0 +1,19 @@
+# Ignorar dependencias de Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos de Git
+.git
+.gitignore
+
+# Ignorar la carpeta de builds de Docker
+docker-compose.override.yml
+
+# Ignorar archivos del editor
+.vscode
+.idea
+.DS_Store
+
+# Ignorar configuraciones locales de entorno
+.env
