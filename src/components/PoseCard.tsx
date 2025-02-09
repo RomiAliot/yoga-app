@@ -24,7 +24,7 @@ export const PoseCard = ({value : {url_png, english_name}}: PoseCardProps) => {
                         onClick={() => context.setOpenSide(true)}
                     />
                     <HeartIcon 
-                        className='h-8 absolute top-4 left-4 text-red-white border-2 border-red-400 cursor-pointer' 
+                        className='h-8 absolute top-4 left-4 text-red-white   cursor-pointer' 
                         onClick={() => console.log('agregado favorito')}
                     />
                     <img className="h-40 rounded w-full object-contain object-center mb-6" src={url_png} alt="content"/>
